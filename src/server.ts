@@ -1,8 +1,11 @@
 import Fastify from "fastify";
+import dotenv from "dotenv";
 import cors from "@fastify/cors";
 import { appRoutes } from "./routes";
 
 const app = Fastify();
+
+dotenv.config();
 
 app.register(cors);
 app.register(appRoutes);
