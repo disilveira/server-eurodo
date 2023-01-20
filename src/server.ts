@@ -13,5 +13,5 @@ app
     host: "0.0.0.0",
   })
   .then((address) => {
-    console.log(`HTTP Server runnin on ${address}`);
+    console.log(`HTTP Server running on ${address}`);
   });
